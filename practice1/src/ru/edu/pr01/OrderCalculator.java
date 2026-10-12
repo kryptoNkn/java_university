@@ -4,7 +4,7 @@ import java.util.Locale;
 public class OrderCalculator {
     private static final double MAX_DISCOUNT_PERCENT = 45.0;
 
-    public static boolean isValid(int quantity, double unitPrice, double discountPercent) {
+    public static boolean isValid(int quantity, double unitPrice, double discountPercent)  {
         return quantity > 0
             && unitPrice > 0
             && discountPercent >= 0
